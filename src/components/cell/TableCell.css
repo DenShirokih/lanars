@@ -1,0 +1,36 @@
+.cell {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: #cdcdcd 0.5px solid;
+  border-radius: 6px;
+  background: #ffffff;
+  margin-right: 15px;
+  margin-bottom: 15px;
+  cursor: pointer;
+  transition: all;
+  transition-duration: 300ms;
+}
+.title {
+  display: flex;
+  justify-content: center;
+  font-size: 48px;
+  margin-top: 48px;
+  margin-bottom: 108px;
+}
+.cell p {
+  font-weight: 700;
+  font-size: 24px;
+}
+.cell:hover {
+  box-shadow: 2px 1px 1px #000;
+  transform: scale(1.05);
+}
+.cell:active{
+  border: #ed5517 1px solid;
+}
+.cell.active {
+  opacity: 0;
+  visibility: hidden;
+
+}
